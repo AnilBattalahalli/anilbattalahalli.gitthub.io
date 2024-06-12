@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog Copies on Chaos</title>
+    <link>http://localhost:1313/blog-copy/</link>
+    <description>Recent content in Blog Copies on Chaos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/blog-copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I passed the AWS DVA Certification Exam</title>
+      <link>http://localhost:1313/blog-copy/aws-dva-certification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog-copy/aws-dva-certification/</guid>
+      <description>How I passed the AWS Developer - Associate Certification Exam (DVA-C02)</description>
+    </item>
+    
+    <item>
+      <title>I passed the AWS SAA Certification Exam</title>
+      <link>http://localhost:1313/blog-copy/aws-saa-certification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog-copy/aws-saa-certification/</guid>
+      <description>How I passed the AWS Solutions Architect-Associate Certification Exam</description>
+    </item>
+    
+    <item>
+      <title>Kindle to Notion</title>
+      <link>http://localhost:1313/blog-copy/kindle-to-notion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog-copy/kindle-to-notion/</guid>
+      <description>A way to seamlessly transfer your Kindle highlights to Notion Database!</description>
+    </item>
+    
+    <item>
+      <title>Face Landmarks Detection using CNN</title>
+      <link>http://localhost:1313/blog-copy/face-landmarks-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog-copy/face-landmarks-detection/</guid>
+      <description>Can computers really understand the human face?</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning - Visualized</title>
+      <link>http://localhost:1313/blog-copy/machine-learning-visualized/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog-copy/machine-learning-visualized/</guid>
+      <description>A visual approach to understand machine learning</description>
+    </item>
+    
+    <item>
+      <title>Face Dataset Compression using PCA</title>
+      <link>http://localhost:1313/blog-copy/face-dataset-compression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog-copy/face-dataset-compression/</guid>
+      <description>Principal Component Analysis for Image Dataset Compression</description>
+    </item>
+    
+    <item>
+      <title>Principal Component Analysis - Visualized</title>
+      <link>http://localhost:1313/blog-copy/pca-visualized/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog-copy/pca-visualized/</guid>
+      <description>Data compression using Principal Component Analysis (PCA)</description>
+    </item>
+    
+  </channel>
+</rss>

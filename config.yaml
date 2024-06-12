@@ -1,0 +1,87 @@
+baseURL: "https://anilbattalahalli.github.io/"
+languageCode: en-us
+paginate: 5
+title: Chaos
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: stats
+      name: Stats
+      url: /stats
+      weight: 20
+    - identifier: kannnada
+      name: Kannada
+      url: /kannada
+      weight: 50
+    - identifier: about
+      name: About
+      url: /about
+      weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Anil Battalahalli"
+    subtitle: My name is Anil Battalahalli ([**ಅನಿಲ ಬಟ್ಟಲಹಳ್ಳಿ**](https://en.wikipedia.org/wiki/Kannada)) and this is the stuff that I do to amount to entropy. [More about me **here**](/about).
+    imageUrl: "home/chaotic_swirls.gif"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:anilbs@umich.edu"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/abattalahalli/"
+    - name: "github"
+      url: "https://github.com/AnilBattalahalli"
+
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
